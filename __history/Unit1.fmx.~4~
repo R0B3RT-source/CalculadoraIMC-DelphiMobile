@@ -1,0 +1,136 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  Fill.Color = claFuchsia
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TintColor = claOrchid
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family, Size, Style]
+      Size.Width = 320.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'IMC'
+      TabOrder = 1
+    end
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 320.000000000000000000
+    Viewport.Height = 432.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style]
+      TabOrder = 0
+      Text = 'Digite o nome: '
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Y = 44.000000000000000000
+      TabOrder = 1
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Center
+        TabOrder = 1
+        Size.Width = 230.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem3: TListBoxItem
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style]
+      Position.Y = 88.000000000000000000
+      TabOrder = 2
+      Text = 'Digite o Peso:'
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.Y = 132.000000000000000000
+      TabOrder = 3
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Center
+        TabOrder = 1
+        Size.Width = 120.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem5: TListBoxItem
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style]
+      Position.Y = 176.000000000000000000
+      TabOrder = 4
+      Text = 'Digite a Altura: '
+    end
+    object ListBoxItem6: TListBoxItem
+      Position.Y = 220.000000000000000000
+      TabOrder = 5
+      object Edit3: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Center
+        TabOrder = 2
+        Size.Width = 120.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem8: TListBoxItem
+      Position.Y = 264.000000000000000000
+      TabOrder = 6
+      object Button1: TButton
+        Align = Left
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        TabOrder = 1
+        Text = 'Calcular'
+        TextSettings.FontColor = claWhite
+        TintColor = claBlack
+      end
+      object Button2: TButton
+        Align = Right
+        StyledSettings = [Family, Size, Style]
+        Margins.Right = 30.000000000000000000
+        Position.X = 217.000000000000000000
+        TabOrder = 2
+        Text = 'Limpar'
+        TextSettings.FontColor = claWhite
+        TintColor = claBlack
+      end
+    end
+    object ListBoxItem7: TListBoxItem
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style]
+      Position.Y = 308.000000000000000000
+      TabOrder = 7
+      Text = 'IMC'
+    end
+  end
+end

@@ -1,0 +1,133 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  Fill.Color = claFuchsia
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TintColor = claOrchid
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family, Size, Style]
+      Size.Width = 320.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'IMC'
+      TabOrder = 1
+    end
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 320.000000000000000000
+    Viewport.Height = 432.000000000000000000
+    object ListBoxItem3: TListBoxItem
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style]
+      TabOrder = 0
+      Text = 'Digite o Peso:'
+    end
+    object txtPeso: TListBoxItem
+      Position.Y = 44.000000000000000000
+      TabOrder = 1
+      object txtPeso1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Center
+        TabOrder = 1
+        Size.Width = 120.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem5: TListBoxItem
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style]
+      Position.Y = 88.000000000000000000
+      TabOrder = 2
+      Text = 'Digite a Altura: '
+    end
+    object ListBoxItem6: TListBoxItem
+      Position.Y = 132.000000000000000000
+      TabOrder = 3
+      object txtAltura: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Center
+        TabOrder = 1
+        Size.Width = 120.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem8: TListBoxItem
+      Position.Y = 176.000000000000000000
+      TabOrder = 4
+      object btnCalcular: TButton
+        Align = Left
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Calcular'
+        TextSettings.FontColor = claWhite
+        TintColor = claBlack
+        OnClick = btnCalcularClick
+      end
+      object btnLimpar: TButton
+        Align = Right
+        StyledSettings = [Family, Size, Style]
+        Margins.Right = 30.000000000000000000
+        Position.X = 217.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Limpar'
+        TextSettings.FontColor = claWhite
+        TintColor = claBlack
+        OnClick = btnLimparClick
+      end
+    end
+    object abc: TListBoxItem
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style]
+      Position.Y = 220.000000000000000000
+      TabOrder = 5
+      object lblMsg: TLabel
+        StyleName = 'lblMsg'
+        Align = Center
+        Size.Width = 250.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'lblMsg'
+        TabOrder = 0
+      end
+    end
+  end
+end
